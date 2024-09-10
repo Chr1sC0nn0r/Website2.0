@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+}
+
+.nav {
+  background-image: url("./background_image.jpg");
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  /* opacity: 0.2; */
+}
+
+.site-title { 
+  font-size: 2rem;
+}
+
+.nav ul { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  opacity: .5;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active { 
+  background-color: none;
+}
+
+.nav .ul:hover { 
+  opacity: 1.2;
+  background-color: none;
+}
+
+.logo-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: visible;
+  margin-top: -6px;
+}
+
+.verticalLine {
+  border-left: 1px solid white;
+  height: 45px;
+  left: 25%;
+  margin-left: -1px;
+  top: 0;
+}
+  
+ .contactus-background-image {
+  background: url("../src/photo3.jpg") no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.about-background-image {
+  background: url("../src/photo4.jpg") no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.services-background-image {
+  background: url("../src/backgroundWebPhoto.jpg") no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.firstpage-background-image { 
+  background: url("../src/sunsetBeach.jpg") no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+  
+.App { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.card-row { 
+  display: flex;
+  gap: 20px;
+}
