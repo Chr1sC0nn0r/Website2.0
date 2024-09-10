@@ -1,0 +1,15 @@
+body {
+  
+  background-size: cover;
+}
+
+.bg-image {  
+  background-image: url("./backgroundWebPhoto.jpg");
+  width: auto;
+  height: 10px;
+  background-position: inherit;
+}
+
+
+
+
